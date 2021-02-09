@@ -24,7 +24,7 @@ namespace Stratis.ImplxDDnsD
     public class Program
     {
         /// <summary>
-        /// The async entry point for the Strax Dns process.
+        /// The async entry point for the Implx Dns process.
         /// </summary>
         /// <param name="args">Command line arguments.</param>
         /// <returns>A task used to await the operation.</returns>
@@ -32,7 +32,7 @@ namespace Stratis.ImplxDDnsD
         {
             try
             {
-                var nodeSettings = new NodeSettings(networksSelector:Networks.ImplxDDnsD, protocolVersion:ProtocolVersion.PROVEN_HEADER_VERSION, args:args)
+                var nodeSettings = new NodeSettings(networksSelector:Networks.Implx, protocolVersion:ProtocolVersion.PROVEN_HEADER_VERSION, args:args)
                 {
                     MinProtocolVersion = ProtocolVersion.PROVEN_HEADER_VERSION
                 };
