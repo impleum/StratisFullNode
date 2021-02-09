@@ -2,7 +2,7 @@
 | :---- | 
 | [![Build status](https://dev.azure.com/stratisproject/StratisFullNode/_apis/build/status/CirrusMain%20IBD)](https://dev.azure.com/stratisproject/StratisFullNode/_build/latest?definitionId=67)
 
-Stratis (STRAX) Full Node 
+Stratis (IMPLX) Full Node 
 ===============
 
 Bitcoin Implementation in C#
@@ -62,17 +62,17 @@ The master branch is actively developed and regularly committed to, and it can b
 To compile a stable (production) release use any of the release tags form version 3.0.x.x and upwards.  
 
 ```
-git clone https://github.com/stratisproject/StratisFullNode.git  
+git clone https://github.com/impleum/StratisFullNode.git  
 cd StratisFullNode\src
 
 dotnet build
 
 ```
 
-To run on the StraxTest network:
+To run on the ImplxMain network:
 ```
-cd Stratis.StraxD
-dotnet run -testnet
+cd Stratis.ImplxD
+dotnet run
 ```  
 
 Development
