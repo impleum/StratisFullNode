@@ -1,0 +1,27 @@
+{
+  "profiles": {
+    "Stratis.ImplxD": {
+      "commandName": "Project"
+    },
+    "Stratis.ImplxD Test": {
+      "commandName": "Project",
+      "commandLineArgs": "-testnet"
+    },
+    "Stratis.ImplxD Test with Default wallet": {
+      "commandName": "Project",
+      "commandLineArgs": "-testnet -rpcallowip=127.0.0.1 -defaultwalletname=default -defaultwalletpassword=default -unlockdefaultwallet -server -rpcpassword=rpcpassword -rpcuser=rpcuser"
+    },
+    "Stratis.ImplxD Test with RPC": {
+      "commandName": "Project",
+      "commandLineArgs": "-testnet -server -rpcpassword=rpcpassword -rpcuser=rpcuser"
+    },
+    "Stratis.ImplxD Test Keepalive 60s": {
+      "commandName": "Project",
+      "commandLineArgs": "-testnet -keepalive=60"
+    },
+    "Stratis.ImplxD Test No assumevalid": {
+      "commandName": "Project",
+      "commandLineArgs": "-testnet -assumevalid=0 -checkpoints=false"
+    }
+  }
+}

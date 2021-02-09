@@ -116,6 +116,10 @@ namespace Stratis.Bitcoin.Cli
                 {
                     networksSelector = Networks.Networks.Stratis;
                 }
+                else if (networkName.Contains("implx"))
+                {
+                    networksSelector = Networks.Networks.Implx;
+                }
                 else
                 {
                     networksSelector = Networks.Networks.Bitcoin;

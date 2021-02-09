@@ -26,6 +26,16 @@ namespace Stratis.Bitcoin.Networks
             {
                 return new NetworksSelector(() => new StraxMain(), () => new StraxTest(), () => new StraxRegTest());
             }
+
+
         }
+        public static NetworksSelector Implx
+        {
+            get
+            {
+                return new NetworksSelector(() => new ImplxMain(), () => new ImplxTest(), () => new ImplxRegTest());
+            }
+        }
+
     }
 }
